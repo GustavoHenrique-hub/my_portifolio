@@ -22,6 +22,7 @@ body {
   background-size: 300% 300%; /* Permite o movimento do gradiente */
   background-repeat: no-repeat;
   animation: bg 12s ease infinite;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5); /* Efeito de profundidade */
 }
 
 @keyframes bg {
@@ -52,7 +53,6 @@ body {
   font-size: 2rem; /* Tamanho da fonte */
   color: #fff;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Brilho no texto */
-  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5); /* Efeito de profundidade */
 }
 
 .home-section {

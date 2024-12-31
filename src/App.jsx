@@ -1,6 +1,9 @@
 import React from "react";
 import NavBar from "./components/NavBar/navBar";
 import "./App.css";
+import ProficiencySlider from "./components/ProficiencySlider";
+
+
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       </section>
       <section className="section techs-section" id="techs">
         <h1>Tecnologies</h1>
+        <ProficiencySlider techName={"React"}/>
       </section>
       <section className="section projects-section" id="projects">
         <h1>Projects</h1>
